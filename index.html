@@ -6,7 +6,7 @@
 	<!----------------------------------------->
 	<!-----------------HEAD ------------------->
 	<!----------------------------------------->
-<head> <!--Aca inicia el head -->
+<head> <!--Aca inicia el head --> 
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,25 +30,22 @@
 		<!----------------------------------------->
 <body> <!--Aca inicia el body -->	
 				<!-------------HEADER---------->
+	<header>
+			<nav class="navbar navbar-expand-lg spacebt fixed-top bg-white">
+				<a href="#"><img src="imagenes/logo.png" class="logo colapsar__logo"></a>
+				<button class="navbar-toggler colapsar" type="button" data-toggle="collapse" data-target="#menu"><img class="hamburguesa" src="imagenes/list-azul.svg"><h6 class="text__hamburguer">MENU</h6></button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav ml-auto">
+						<li class="navbar-item"><a class="nav-link js-scroll-trigger" aria-current="page" href="index.html">Magma</a></li>
+						<li class="navbar-item"><a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a></li>
+						<li class="navbar-item"><a class="nav-link js-scroll-trigger"href="#cocteles">Cocteles</a></li>
+						<li class="navbar-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>    
+					</ul>
+				</div>
+			</nav>
+	</header>
 	<section class="fondo cointainer-fluid" id="grillaInicio">
 			<div class="circulo"></div>
-			<header>
-					<nav class="navbar navbar-expand-lg spacebt">
-						<a href="#"><img src="imagenes/logo.png" class="logo colapsar__logo"></a>
-						<button class="navbar-toggler colapsar" type="button" data-toggle="collapse" data-target="#menu"><img class="hamburguesa" src="imagenes/list-azul.svg"><h6 class="text__hamburguer">MENU</h6></button>
-						<div class="collapse navbar-collapse" id="menu">
-							<ul class="navbar-nav ml-auto">
-						    	<li class="navbar-item"><a class="nav-link ind" aria-current="page" href="index.html">Magma</a></li>
-								<li class="navbar-item"><a class="nav-link" href="pages/Equipo.html">Equipo</a></li>
-								<li class="navbar-item"><a class="nav-link"href="pages/Cocteles.html">Cocteles</a></li>
-								<li class="navbar-item"><a class="nav-link" href="pages/Nosotros.html">Nosotros</a></li>
-								<li class="navbar-item"><a class="nav-link" href="pages/Contacto.html">Contacto</a></li>    
-						    </ul>
-						</div>
-					</nav>
-			</header>
-					<!------------HEADER--------->	
-				<br>
 					<!--==========================-->
 					<!--=======CONTENIDO PRINCIPAL-->
 					<!--==========================-->
@@ -86,8 +83,172 @@
 				<li><a href="https://wa.link/fbf9hb"><img class="redes__img" src="imagenes/whatsapp.png"></a></li>
 			</ul>
 					<!--------REDES------->
-					<!-------Footer----------->
-			<footer class="footer py-4">
+	</section>
+	<section class="fondo4" id="nosotros">
+	<div class="circulo2"></div>		
+				<!--==========================-->
+				<!--=======CONTENIDO PRINCIPAL-->
+				<!--==========================-->
+		<div class="contenido5">	
+			<h1 class="h1servicios">Sobre Nosotros</h1>
+			<p class="container">Somos dos bartenders, compañeras de barra, apasionadas por lo que hacemos, con muchas ganas de llevar a ustedes este mundo de la cocteleria. <br>Intentamos que a través de nuestras composiciones puedan trasladarse a lugares, momentos y nuevas experiencias. <br>Enfocadas en la elaboración integra de nuestros insumos 100% naturales e impulsadas por una visión eco-friendly.</p>
+		</div>
+		<!-- Button to Open the Modal -->
+		<button type="button" class="btn btn ind2 contactarnos" data-toggle="modal" data-target="#myModal">
+		  Contactanos
+		</button>
+
+		<!-- The Modal -->
+		<div class="modal" id="myModal">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+
+		      <!-- Modal Header -->
+		      <div class="modal-header">
+		        <h4 class="modal-title">Contactanos</h4>
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <ul class="modal__lista container">
+			      	<li><a href="Contacto.html">Quiero una cotización</a></li>
+			        <li><a href="Contacto.html">Quiero saber algo de ustedes</a></li>
+			        <li><a href="https:/wa.link/u93h52">Quiero hablarles por Whatsapp</a></li>
+			        <li><a href="https://www.instagram.com/magmacocteles/">Quiero ver su instagram</a></li>
+			      </ul>
+		      </div>
+
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+					<!--==========================-->
+					<!--=======CONTENIDO PRINCIPAL-->
+					<!--==========================-->
+		<div class="circulo3"></div>
+						<!--==========================-->
+						<!--=======CONTENIDO PRINCIPAL-->
+						<!--==========================-->
+				<div class="contenedor__titulo">
+					<h1 class="title" id="titulo">El Equipo detrás de Magma Cócteles</h1></div>	
+				<div class="container equiposecc">
+					<div class="merlina">
+						<img class="merlina__img" src="imagenes/merlina.png">
+						<div>
+							<h3 class="merlina__titulo">Merlina Simpsons</h3>
+							<p class="merlina__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Molestias quia provident soluta, aliquid rem aut! Assumenda, eos, vero!</p>
+							<div>
+								<ul class="redes__ps">
+									<li><a href="https://wa.link/fbf9hb"><img class="redes__img" src="imagenes/whatsapp.png"></a></li>
+									<li><a href="https://www.instagram.com/merlina_simpsons/"><img class="redes__img" src="imagenes/instagram.png"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="paula">
+						<img class="paula__img" src="imagenes/paula.jpeg">
+						<div>
+							<h3 class="paula__titulo">Paula Macasso</h3>
+							<p class="paula__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Rerum dolore distinctio aliquid, quos voluptatem porro eius dicta eaque.</p>
+							<div>
+								<ul class="redes__ps">
+									<li><a href="https://wa.link/fbf9hb"><img class="redes__img" src="imagenes/whatsapp.png"></a></li>
+									<li><a href="https://www.instagram.com/macassopaula/"><img class="redes__img" src="imagenes/instagram.png"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+					<!--==========================-->
+					<!--=======CONTENIDO PRINCIPAL-->
+					<!--==========================-->
+	</section>
+	<section class="fondo3" id="cocteles">
+	<div class="circulo4"></div>
+					<!--==========================-->
+					<!--=======CONTENIDO PRINCIPAL-->
+					<!--==========================-->
+			<h1 id="tituloCocteles">Nuestros cocteles</h1>
+			<div class="cocteles container">
+				<div>
+					<img src="imagenes/Expresso_Cream.jpg">
+					<h3>Expresso cream</h3>
+				</div>
+				<div>
+					<img src="imagenes/Golden_Hanky_Panky.jpg">
+					<h3>Golden Hanky Panky</h3>
+				</div>
+				<div>
+					<img src="imagenes/Hanky_Panky.jpg">
+					<h3>Hanky Panky</h3>
+				</div>
+				<div>
+					<img src="imagenes/Magma.jpg">
+					<h3>Magma</h3>
+				</div>
+				<div>
+					<img src="imagenes/Mint_Collins.jpg">
+					<h3>Mint Collins</h3>
+				</div>
+				<div>
+					<img src="imagenes/Negroni.jpg">
+					<h3>Negroni</h3>
+				</div>
+				<div>
+					<img src="imagenes/Penicillin.jpg">
+					<h3>Penicillin</h3>
+				</div>
+				<div>
+					<img src="imagenes/Presto.jpg">
+					<h3>Presto</h3>
+				</div>
+			</div>
+					<!--==========================-->
+					<!--=======CONTENIDO PRINCIPAL-->
+					<!--==========================-->
+	</section>
+	<section class="fondo__contacto" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactanos</h2>
+
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Tu nombre *" required="required" data-validation-required-message="Porfavor, ingrese su nombre." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Tu Email *" required="required" data-validation-required-message="Porfavor, ingrese su direccion de email." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Tu telefono *" required="required" data-validation-required-message="Porfavor, ingrese su telefono." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="Porfavor, ingrese su mensaje."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
+            				<!---------FOOTER--------->
+            <footer class="footer py-4">
 	            <div class="container">
 	                <div class="row align-items-center">
 	                    <div class="col-lg-4 text-lg-left">Copyright © Magma Cocteles 2020</div>
@@ -95,25 +256,19 @@
 	                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/magmacocteles/"><img class="redes__img" src="imagenes/instagram.png"></a>
 	                        <a class="btn btn-dark btn-social mx-2" href="https://wa.link/fbf9hb"><img class="redes__img" src="imagenes/whatsapp.png"></a></a>
 	                    </div>
-	                    <div class="col-lg-4 text-lg-right">
-	                        <a class="mr-3" href="#!">Politicas de privacidad</a>
-	                        <a href="#!">Terminos y condiciones</a>
-	                    </div>
 	                </div>
 	            </div>
 	        </footer>
-	        <!-------Footer----------->
 	</section>
-
-						<!--==========================-->
-						<!--=======CONTENIDO PRINCIPAL-->
-						<!--==========================-->
 	<!--Jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!--Popper-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<!--Bootstrap Js-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
 	
 </body> <!--Aca finaliza el body -->
 		<!----------------------------------------->
