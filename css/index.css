@@ -153,7 +153,8 @@ hr{
   font-weight: 500;
   text-decoration: none;
   padding: 5px; 
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);}
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  position: relative;}
 
 .circulo {
   position: absolute;
@@ -724,4 +725,14 @@ h6{
   background-color: #354a67;
   padding: 5px;
   border-radius: 25px;
+}
+
+.FlText{
+  font-size: 18px;
+  font-weight: 600;
+  color: #ddad49;
+}
+
+.Fl{
+  height: 30px;
 }
